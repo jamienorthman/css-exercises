@@ -4,8 +4,30 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+.plant {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#barberry, #chilli, #pepper {
+  margin-right: 52px;
 }
 
 img {
@@ -13,13 +35,11 @@ img {
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
-}
-
 .text {
+  width: 200px;
+  height: 75px;
   text-align: center;
+  margin-right: 0;
 }
 
 /* do not edit this footer */
