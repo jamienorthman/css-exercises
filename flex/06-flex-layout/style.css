@@ -3,6 +3,8 @@
 body {
   height: 100vh;
   margin: 0;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -25,6 +27,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 20px;
 }
 
 input {
@@ -37,19 +40,18 @@ input {
 
 .header {
   display: flex;
-  gap: 65rem;
 }
 
 .content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 
 .footer {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  margin-top: auto;
   background-color: #eee;
 }
 
